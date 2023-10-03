@@ -15,7 +15,7 @@ Add a new repo entry to your configuration file:
 ```yaml
 repos:
 
-  - repo: https://github.com/CSymes/ps1-nocommit-pre-commit
+  - repo: https://github.com/CSymes/nocommit-pre-commit
     rev: <git sha or tag>
     hooks:
       - id: ps1-nocommit
