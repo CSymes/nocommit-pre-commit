@@ -5,3 +5,11 @@
   description: Check for nocommit mentions before committing
   exclude: "^\\.pre-commit-config.yaml$"
   stages: [commit]
+
+- id: nocommit
+  name: NoCommit
+  language: python
+  entry: nocommit
+  description: Check for nocommit mentions before committing
+  exclude: "^\\.pre-commit-config.yaml$"
+  stages: [commit]

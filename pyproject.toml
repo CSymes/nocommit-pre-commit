@@ -1,0 +1,14 @@
+[project]
+name = "nocommit"
+version = "2.0"
+description = "A pre-commit hook that checks commit changes for blocking notes-to-self."
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+code = "https://github.com/CSymes/nocommit-pre-commit"
+
+[project.scripts]
+nocommit = "nocommit:main"

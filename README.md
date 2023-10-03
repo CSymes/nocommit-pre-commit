@@ -18,8 +18,8 @@ repos:
   - repo: https://github.com/CSymes/nocommit-pre-commit
     rev: <git sha or tag>
     hooks:
-      - id: ps1-nocommit
-        # args: ["-searchstr", "nocommit"] # optional: modify the gate phrase to something other than the default
+      - id: nocommit
+        # args: ["--searchstr", "nocommit"] # optional: modify the gate phrase to something other than the default
 ```
 
 You can then leave comments to yourself using this phrase and the hook
