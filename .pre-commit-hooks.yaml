@@ -4,7 +4,7 @@
   entry: nocommit.ps1
   description: Check for nocommit mentions before committing
   exclude: "^\\.pre-commit-config.yaml$"
-  stages: [commit]
+  stages: [pre-commit]
 
 - id: nocommit
   name: NoCommit
@@ -12,4 +12,4 @@
   entry: nocommit
   description: Check for nocommit mentions before committing
   exclude: "^\\.pre-commit-config.yaml$"
-  stages: [commit]
+  stages: [pre-commit]
